@@ -3,6 +3,7 @@ import path from 'path';
 import crypto from 'crypto';
 
 const tmpFolder = path.resolve(__dirname, '..', '..', 'tmp');
+
 export default {
   directory: tmpFolder,
 
